@@ -88,7 +88,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                     name: widget.product?.name ?? "",
                     axiomMonthlyPrice: widget.product?.saleMonths.toString() ?? "",
                     salePrice: widget.product?.salePrice.toString() ?? "",
-                    count: '0',
+                    count: '1',
                   ),
                 );
               }
@@ -209,7 +209,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                   image: widget.product?.image ?? "",
                   name: widget.product?.name ?? "",
                   axiomMonthlyPrice: widget.product?.saleMonths.toString() ?? "",
-                  count: '0',
+                  count: '1',
                   salePrice: widget.product?.salePrice.toString() ?? "",
                 ),
               );
@@ -292,7 +292,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                       image: widget.product?.image ?? "",
                       name: widget.product?.name ?? "",
                       axiomMonthlyPrice: widget.product?.saleMonths.toString() ?? "",
-                      count: '0',
+                      count: '1',
                       salePrice: widget.product?.salePrice.toString() ?? "",
                     ),
                   );
@@ -424,7 +424,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
           ),
           const Spacer(),
           Text(
-            "${reviewsCount ?? '0'} ta izoh",
+            "${reviewsCount ?? '1'} ta izoh",
             style: const TextStyle(fontFamily: 'PaynetB',color: LightColors.grey),
           ),
           const Icon(

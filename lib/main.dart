@@ -8,10 +8,17 @@ import 'package:texnomart/ui/home/home_screen.dart';
 import 'package:texnomart/ui/main_screen/cart.dart';
 import 'package:texnomart/ui/main_screen/main_screen.dart';
 import 'package:texnomart/utils/hive_helper.dart';
+import 'package:yandex_maps_mapkit_lite/init.dart';
+import 'package:yandex_maps_mapkit_lite/mapkit_factory.dart';
+import 'package:yandex_maps_mapkit_lite/runtime.dart';
 // import 'package:alice/alice.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  await initMapkit(
+      apiKey: 'YOUR_API_KEY'
+  );  await
   HiveHelper.init();
   setup();
   runApp(
@@ -42,7 +49,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
 
 
 /*

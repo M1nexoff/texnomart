@@ -1,0 +1,1 @@
+part of 'map_list_bloc.dart';@immutableabstract class MapListEvent {}class GetAllMapListEvent extends MapListEvent {}

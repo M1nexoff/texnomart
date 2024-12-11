@@ -141,7 +141,7 @@ class _BasketItemState extends State<BasketItem> {
                       GestureDetector(
                           onTap: () async {
                             var prCount = int.parse(widget.product.count ?? '1') - 1;
-                            widget.product.count = prCount == -1 ? '0' : prCount.toString();
+                            widget.product.count = prCount == 0 ? '1' : prCount.toString();
                             widget.product.save();
                             setState(() {});
                             widget.onChange.call();

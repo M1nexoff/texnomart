@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:texnomart/presentation/theme/light_colors.dart';
+import 'package:texnomart/ui/branches_list/stores_screen.dart';
 import 'package:texnomart/ui/favourite_page/favourite_page.dart';
 import 'package:texnomart/utils/hive_helper.dart';
 
@@ -35,6 +36,7 @@ class _MainScreenState extends State<MainScreen> {
     const CatalogScreen(),
     const BasketPage(),
     const FavouritePage(),
+    const StoresScreen()
   ];
 
   @override
@@ -76,6 +78,11 @@ class _MainScreenState extends State<MainScreen> {
                 icon: "assets/images/heart.png",
                 label: 'Favourites',
                 index: 3,
+              ),
+              _buildNavigationItem(
+                icon: "assets/images/store.png",
+                label: 'Stores',
+                index: 4,
               ),
             ],
           ),

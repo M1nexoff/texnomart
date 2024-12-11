@@ -1,0 +1,1 @@
+part of 'map_list_bloc.dart';@immutableabstract class MapListState {}class MapListInitial extends MapListState {}class GetAllMapListState extends MapListState {  final StoreResponse data;  GetAllMapListState(this.data);}

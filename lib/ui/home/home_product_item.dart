@@ -77,7 +77,7 @@ class _XitProductItemState extends State<XitProductItem> {
                               axiomMonthlyPrice: data?.saleMonths.toString() ?? '',
                               salePrice: data?.salePrice.toString() ?? '',
                               id: data?.id.toString() ?? '',
-                              count: '0'));
+                              count: '1'));
                         }
                         setState(() {
                           isFavorite = !isFavorite;

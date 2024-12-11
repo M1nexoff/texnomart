@@ -1,6 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
 import 'package:texnomart/data/source/remote/response/characters/characters_response.dart';
+import 'package:texnomart/data/source/remote/response/store/store_response.dart';
 import 'package:texnomart/data/source/remote/response/top_categories/top_categories.dart';
 
 import '../response/categories/all_categories_model.dart';
@@ -35,7 +36,7 @@ abstract class ApiService {
   Future<ProductAllCategory> getSelectedCategory({
     @Query('category_all') required String slug,
     @Query('sort') String sort = '-popular',
-    @Query('page') int page = 1,
+      @Query('page') int page = 1,
   });
 
   @GET('web/v1/category/chips')
@@ -61,5 +62,9 @@ abstract class ApiService {
   @GET('web/v1/category/popular-categories')
   Future<ProductsPopularCategory> getProductByCatalog2(
       {@Query('slug') String slug = 'telefony'});
+
+  @GET('web/v1/region/stores-list')
+  Future<StoreResponse> getStoreList();
+
 
 }
