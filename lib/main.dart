@@ -53,6 +53,17 @@ class MyApp extends StatelessWidget {
 
 /*
 
+
+Texnomart (flutter)
+- info: Texnomart clone
+- technical: Dio, Retrofit, RestApi, YandexMapkit lite, Bloc, Provider, Slider, Hive,
+- link: https://github.com/M1nexoff/texnomart
+
+Find my Friend (flutter)
+- info: App for looking persons that close to you
+- technical: YandexMapkit lite, Firebase(auth, firestore), GetX, GetxController, Dio, Theme, ImagePicker, Camera
+- link: https://github.com/M1nexoff/find_my_friend
+
 Find Word by Photo(android)
 - info: 4 picture 1 word game
 - technical: Single Activity, Fragment, ScrollView, SharedPreference, Dialog, MVP
@@ -68,6 +79,11 @@ Read for Knowledge(android)
 - technical: Firebase firestore, Firebase storage, Single Activity, Fragment, RecyclerView, Dialog, Pdf opening, Downloading, MVVM
 - link: https://github.com/M1nexoff/Read-for-Knowledge
 
+Currency (flutter)
+- info: Currency convert app
+- technical: dio, retrofit, provider, sharedPreference
+- link: https://github.com/M1nexoff/currency
+
 Prime Music Player(android)
 - info: Music player app
 - technical: Foreground Service, Notification, Media3 Exo Player, Single Activity, Fragment, RecyclerView, MVVM
@@ -77,7 +93,6 @@ Travel(flutter)
 - info: Information app about places to travel. It's my first app in flutter
 - technical: Widget, Silver App bar, ListView,
 - link: https://github.com/M1nexoff/FindWordKotlin
-
 
 Offline Notes(android)
 - info: Notes app
